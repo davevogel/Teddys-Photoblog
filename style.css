@@ -17,6 +17,8 @@ h1, h2, p, a {
     color: rgb(0, 81, 156) !important;
 }
 
+
+
 /* Header */
 
 .hero  {
@@ -46,8 +48,8 @@ h1, h2, p, a {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.hero * {
-    z-index: 100;
+.content * {
+    z-index: 10;
 }
 
 
