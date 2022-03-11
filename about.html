@@ -19,59 +19,102 @@
 </head>
 
 <body>
-    <header class="hero">
-        <nav class="navbar navbar-expand-md bg-dark fixed-top navbar-dark" id="navbar">
-            <a class="navbar-brand pr-5" href="#">Teddy's Photoblog</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" id="navbarDropdownMenuLink" role="button" class="nav-link dropdown-toggle"
-                            aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">Photos</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="#" class="dropdown-item bg-light">Teddy At The Beach</a>
-                            <a href="#" class="dropdown-item bg-light">Teddy In The City</a>
-                            <a href="#" class="dropdown-item bg-light">Teddy At Home</a>
-                            <a href="#" class="dropdown-item bg-light">Teddy Somewhere Else</a>
-                            <a href="#" class="dropdown-item bg-light">Teddy Is Dead</a>
+    <nav class="navbar navbar-expand-md bg-dark fixed-top navbar-dark" id="navbar">
+        <a class="navbar-brand pr-5" href="#">Teddy's Photoblog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                        </div>
-                    </li>
-                </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" class="nav-link dropdown-toggle"
+                        aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">Photos</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="#" class="dropdown-item bg-light">Teddy At The Beach</a>
+                        <a href="#" class="dropdown-item bg-light">Teddy In The City</a>
+                        <a href="#" class="dropdown-item bg-light">Teddy At Home</a>
+                        <a href="#" class="dropdown-item bg-light">Teddy Somewhere Else</a>
+                        <a href="#" class="dropdown-item bg-light">Teddy Is Dead</a>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="bg-dark about-header">
+            <div class="container">
+                <h2>About Teddy</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <img src="./img/ted-beer-removebg-preview.jpg">
             </div>
-        </nav>
+        </section>
+
+        <section class="bg-light about-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <h2>About me</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti laborum voluptates animi,
+                            quasi perferendis voluptatum nulla at rem cum corrupti omnis rerum maiores nostrum
+                            voluptatem incidunt optio cupiditate inventore iste, dignissimos quia vitae harum voluptate
+                            atque. Quod laborum similique nihil est? Voluptate, ex repudiandae? Perferendis placeat
+                            minus labore voluptates, amet molestiae possimus odio laborum quasi nostrum aspernatur
+                            iusto, delectus praesentium.</p>
+                    </div>
+                    <div class="col-md">
+                        <h2>Who am I?</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, repudiandae dolor odit
+                            debitis nisi esse architecto rem delectus. Fugit, cupiditate, architecto id reiciendis
+                            quibusdam cumque quae quia mollitia nesciunt voluptatum placeat alias numquam cum
+                            consequuntur quasi eum eius aliquid porro eveniet eaque iusto ea pariatur debitis quisquam!
+                            Consequatur est ipsa magnam dolorem sequi itaque mollitia quisquam sit sint. Error, sequi.
+                        </p>
+                    </div>
+                    <div class="col-md">
+                        <h2>What am I?</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos doloribus porro eos
+                            velit reiciendis autem pariatur beatae necessitatibus, dolor voluptates eligendi? Magnam
+                            deleniti nesciunt voluptates dignissimos? Atque consequatur veniam, debitis nihil illo quam
+                            possimus doloremque pariatur repellendus ad non dicta, obcaecati labore maiores tenetur,
+                            iusto voluptatem? Debitis soluta cupiditate earum. Earum at eos ipsa rerum labore ab fugit
+                            atque sapiente!</p>
+                    </div>
+
+                </div>
+        </section>
+
+    </main>
 
 
 
-
-
-        <footer class="bg-dark py-5">
-            <div class="container text-center">
-                <p>Teddy's Photoblog project made by <a href="https://github.com/davevogel">Dave</a>&copy;</p>
-            </div>
-        </footer>
+    <footer class="bg-dark py-5 main-footer">
+        <div class="container text-center">
+            <p>Teddy's Photoblog project made by <a href="https://github.com/davevogel">Dave</a>&copy;</p>
+        </div>
+    </footer>
 
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
 

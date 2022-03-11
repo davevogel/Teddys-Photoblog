@@ -9,6 +9,11 @@ h1, h2, p, a {
     color: rgb(75, 145, 224);
 }
 
+/* NAVBAR */ 
+#navbar {
+    opacity: 0.9;
+}
+
 .navbar-brand, .navbar a {
     color: rgb(75, 145, 224) !important;
 }
@@ -16,6 +21,8 @@ h1, h2, p, a {
 .navbar a:hover {
     color: rgb(0, 81, 156) !important;
 }
+
+
 
 
 
@@ -91,9 +98,28 @@ h1, h2, p, a {
 
 
 /* FOOTER */
+.main-footer {
+    position: relative;
+    bottom: 0;
+}
 
+/* ABOUT PAGE */
+.about-header {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.about-header img {
+    height: 20rem;
+}
 
+.about-content {
+    min-height: 50vh;
+}
 
 @media(max-width:768px) {
     #about {
