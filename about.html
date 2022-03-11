@@ -21,7 +21,7 @@
 <body>
 
     <nav class="navbar navbar-expand-md bg-dark fixed-top navbar-dark" id="navbar">
-        <a class="navbar-brand pr-5" href="#">Teddy's Photoblog</a>
+        <a class="navbar-brand pr-5" href="index.html">Teddy's Photoblog</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,10 +29,10 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a href="#" class="nav-link">Home</a>
-                </li>
                 <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item active">
                     <a href="about.html" class="nav-link">About</a>
                 </li>
                 <li class="nav-item dropdown">
@@ -47,43 +47,51 @@
 
                     </div>
                 </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
 
+    <header class="bg-dark about-header">
+        <div class="container">
+            <h2>About Teddy</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <img src="./img/ted-beer-removebg-preview.jpg">
+        </div>
+    </header>
+
     <main>
-        <section class="bg-dark about-header">
-            <div class="container">
-                <h2>About Teddy</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                <img src="./img/ted-beer-removebg-preview.jpg">
-            </div>
-        </section>
+
 
         <section class="bg-light about-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md">
+                    <div class="col-md p-5">
                         <h2>About me</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti laborum voluptates animi,
+                        <p class="about-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti laborum
+                            voluptates animi,
                             quasi perferendis voluptatum nulla at rem cum corrupti omnis rerum maiores nostrum
                             voluptatem incidunt optio cupiditate inventore iste, dignissimos quia vitae harum voluptate
                             atque. Quod laborum similique nihil est? Voluptate, ex repudiandae? Perferendis placeat
                             minus labore voluptates, amet molestiae possimus odio laborum quasi nostrum aspernatur
                             iusto, delectus praesentium.</p>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md p-5">
                         <h2>Who am I?</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, repudiandae dolor odit
+                        <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+                            repudiandae dolor odit
                             debitis nisi esse architecto rem delectus. Fugit, cupiditate, architecto id reiciendis
                             quibusdam cumque quae quia mollitia nesciunt voluptatum placeat alias numquam cum
                             consequuntur quasi eum eius aliquid porro eveniet eaque iusto ea pariatur debitis quisquam!
                             Consequatur est ipsa magnam dolorem sequi itaque mollitia quisquam sit sint. Error, sequi.
                         </p>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md p-5">
                         <h2>What am I?</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos doloribus porro eos
+                        <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
+                            doloribus porro eos
                             velit reiciendis autem pariatur beatae necessitatibus, dolor voluptates eligendi? Magnam
                             deleniti nesciunt voluptates dignissimos? Atque consequatur veniam, debitis nihil illo quam
                             possimus doloremque pariatur repellendus ad non dicta, obcaecati labore maiores tenetur,
@@ -91,6 +99,48 @@
                             atque sapiente!</p>
                     </div>
 
+                </div>
+        </section>
+
+        <section class="bg-dark" id="testimonials">
+            <div class="container testimonial">
+                <div class="row bg-dark">
+                    <div class="col p-5">
+                        <h2>Testimonials</h2>
+                    </div>
+                </div>
+                <div class="row p-5 bg-dark">
+                    <div class="col-md-4 p-2">
+                        <img class="testimonial-img" src="./img/testimonial1.jpeg">
+                    </div>
+                    <div class="col-md-8 p-2">
+                        <h3>Great Photo's</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident optio quam porro odio eius
+                            modi quos quaerat omnis, excepturi quae culpa? Itaque amet eos asperiores, tempore sapiente
+                            ipsam nihil repellat?</p>
+                    </div>
+                </div>
+                <div class="row p-5 bg-light">
+                    <div class="col-md-8 p-2 m-auto">
+                        <h3>Professional Environment</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident optio quam porro odio eius
+                            modi quos quaerat omnis, excepturi quae culpa? Itaque amet eos asperiores, tempore sapiente
+                            ipsam nihil repellat?</p>
+                    </div>
+                    <div class="col-md-4 p-2">
+                        <img class="testimonial-img" src="./img/testimonial2.webp">
+                    </div>
+                </div>
+                <div class="row p-5 bg-dark">
+                    <div class="col-md-4 p-2">
+                        <img class="testimonial-img" src="./img/testimonial3.webp">
+                    </div>
+                    <div class="col-md-8 p-2 m-auto">
+                        <h3>Affordable</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident optio quam porro odio eius
+                            modi quos quaerat omnis, excepturi quae culpa? Itaque amet eos asperiores, tempore sapiente
+                            ipsam nihil repellat?</p>
+                    </div>
                 </div>
         </section>
 
