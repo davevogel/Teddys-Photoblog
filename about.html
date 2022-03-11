@@ -53,96 +53,25 @@
 
 
 
-        <div class="content">
-            <h1>Teddy's Photo Blog</h1>
-            <p>This Blog Is All About Teddy's Adventures</p>
-            <a class="btn btn-primary px-4 py-2" href="#about">Learn More</a>
-        </div>
 
 
-    </header>
-    <main>
-        <section id="about" class="bg-dark">
-            <div id="image" class="p-5">
-                <img src="./ted.jpeg" alt="">
+        <footer class="bg-dark py-5">
+            <div class="container text-center">
+                <p>Teddy's Photoblog project made by <a href="https://github.com/davevogel">Dave</a>&copy;</p>
             </div>
-            <div class="container">
-                <h2>About me</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aliquid id rerum eveniet
-                    repellendus!
-                    Necessitatibus nemo commodi quia molestiae velit labore id aspernatur iusto facilis sint explicabo,
-                    omnis blanditiis quo, pariatur amet nisi iure, quasi temporibus quam asperiores aliquid quas quae
-                    illo.
-                    Architecto error nemo fugiat, veritatis facere animi quidem perspiciatis saepe mollitia labore neque
-                    itaque tempore? Doloremque illum ex ad nihil odit, aliquid exercitationem atque tempore, velit,
-                    necessitatibus minus. Laboriosam aliquam error modi mollitia nostrum exercitationem quis rerum ea.
-                </p>
-            </div>
-        </section>
-
-        <section class="photos">
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-md py-3">
-                        <img class="img-fluid" src="./img/big-bend-national-park-gaacafdab7_1920.jpg" alt="">
-                    </div>
-                    <div class="col-md py-3">
-                        <img class="img-fluid" src="./img/big-rock-ged055c00f_1280.jpg" alt="">
-                    </div>
-                    <div class="col-md py-3">
-                        <img class="img-fluid" src="./img/lion-g5498c3b1a_1920.jpg" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md py-3">
-                        <img class="img-fluid" src="./img/crow-g78c702f46_1920.jpg" alt="">
-                    </div>
-                    <div class="col-md py-3">
-                        <img class="img-fluid" src="./img/knight-gc0d3a85d3_1920.jpg" alt="">
-                    </div>
-                    <div class="col-md py-3">
-                        <img class="img-fluid" src="./img/kitty-gee7c750f1_1920.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
+        </footer>
 
 
-    </main>
 
-    <footer class="bg-dark py-5">
-        <div class="container text-center">
-            <p>Teddy's Photoblog project made by <a href="https://github.com/davevogel">Dave</a>&copy;</p>
-        </div>
-    </footer>
-
-    <script>
-        // Smooth scrolling
-        $('#navbar a, .btn').on('click', function (e) {
-            if (this.hash !== '') {
-                e.preventDefault();
-
-                const hash = this.hash;
-
-                $('html, body').animate(
-                    {
-                        scrollTop: $(hash).offset().top - 100,
-                    },
-                    800
-                );
-            }
-        });
-    </script>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 
 </body>
 
