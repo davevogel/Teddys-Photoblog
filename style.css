@@ -119,6 +119,10 @@ a:hover {
 }
 
 
+
+
+
+
 /* FOOTER */
 .main-footer {
     position: relative;
@@ -155,6 +159,8 @@ a:hover {
 #testimonials .testimonial {
     min-width: 100%;
 }
+
+/* CONTACT */
 
 #contact input[type=text], #contact input[type=email], #contact input[type=tel], #contact textarea {
     width: 60%;
